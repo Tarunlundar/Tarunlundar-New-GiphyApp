@@ -1,0 +1,48 @@
+.Header{
+    text-align: center;
+    padding: 1px;
+    background-color: orangered;
+    width: auto;
+}
+.Center{
+    padding: 1px;
+    text-align: center;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .searchBox input[type=text] {
+    padding: 8px;
+    font-size: 13px;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  .searchBox{
+    margin:auto;max-width:500px;
+  }
+  
+  .searchBox button {
+    float: left;
+    width: 20%;
+    padding: 8px;
+    background: #080808;
+    color: white;
+    font-size: 13px;
+    border: 1px solid rgb(0, 0, 0);
+    border-left: none;
+    cursor: pointer;
+  }
+  
+   .searchBox button:hover {
+    background: #000000b6;
+  }
+   
+  .searchBox::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
